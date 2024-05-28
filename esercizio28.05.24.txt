@@ -1,0 +1,51 @@
+
+1) 1.1.1.1/8
+   IP Network 1.0.0.0
+   IP Gateway 255.0.0.0
+   IP Broadcast 1.255.255.255
+   Numero host utilizzabili: (1*256*256*256)-2= 16 777 214 
+   CIDR: Classe A
+
+2) 128.1.6.5/12
+   IP Network 128.0.0.0
+   IP Gateway 255.240.0.0
+   IP Broadcast 128.15.255.255
+   Numero host utilizzabili: [(256-240)*256*256]-2= 1 048 574
+   CIDR: Classe B
+
+3) 200.1.2.3/24
+   IP Network  200.1.2.0
+   IP Gateway  255.255.255.0
+   IP Broadcast 200.1.2.255
+   Numero di host utilizzabili: 254
+   CIDR: Classe C
+
+4) 192.192.1.1/22
+   IP Network 192.192.0.0
+   IP Gateway 255.255.252.0
+   IP Broadcast 192.192.3.255
+   Numero host: [(256-252)*256]-2 = 1 022
+   CIDR: Classe C
+
+5) 126.5.4.3/9
+   IP Neetwork 126.0.0.0
+   IP Gateway  255.128.0.0
+   IP Broadcast 126.64.255.255
+   Numero di host [(256-127)*256*256]-2 = 8 454 142
+   CIDR: Classe B
+
+6) 200.1.9.8/24
+   IP Network 200.1.9.0
+   IP Gateway 255.0.0.0
+   IP Broadcast 200.1.9.255
+   Numero di host utilizzabili: 254
+   Classe CIDR: Classe C
+
+
+
+7) 172.16.0.4/16
+   IP Network 172.16.0.0
+   IP Gateway 255.255.0.0
+   IP Broadcast 172.16.255.255
+   Numero di host utilizzabili: (256*256)-2 = 65 534
+   Classe CIDR: Classe B
